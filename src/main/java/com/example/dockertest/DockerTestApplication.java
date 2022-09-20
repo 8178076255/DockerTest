@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DockerTestApplication {
 
+	//Rest controller
 	@GetMapping("/hello/{name}")
 	public String syaHello(@PathVariable String name) {
 		return "Hello " + name;
